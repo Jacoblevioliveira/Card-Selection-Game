@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>3 Card Monte Game - JavaScript Version</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="game-container">
+        <h1>3 Card Monte</h1>
+        <p id="instruction">Click "Reveal" to start!</p>
+        <div class="card-container">
+            <!-- Cards -->
+            <div class="card" id="card1"></div>
+            <div class="card" id="card2"></div>
+            <div class="card" id="card3"></div>
+        </div>
+        <button id="reveal-button">Reveal Cards</button>
+        <button id="shuffle-button" disabled>Shuffle Cards</button>
+        <p id="result"></p>
+    </div>
+    <script src="game.js"></script>
+</body>
+</html>
